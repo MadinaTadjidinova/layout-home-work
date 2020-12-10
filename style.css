@@ -1,7 +1,16 @@
 *{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 .header{
-    padding: 25px;
+    padding: 10px;
     display: flex;
+}
+.nav{
+    float: right;
 }
