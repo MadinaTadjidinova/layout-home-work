@@ -22,6 +22,14 @@ body{
     display: block;
     font-size: 20px;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px){
+.p{
+    margin-right: auto;
+}
 }
 .nav{
     display: block;
@@ -44,7 +52,6 @@ main{
     max-width: 550px;
     width: 100%S;
     margin: 0 auto;
-    padding-top: 50px;
 }
 .text{
     text-align: center;
@@ -52,7 +59,8 @@ main{
     margin-right: auto;
     padding-right: 16px;
     padding-left: 16px;
-    max-width: ;
+    max-width: 560px;
+    padding-bottom: 30px;
 }
 h1{
     font-size: 45px;
@@ -66,12 +74,12 @@ h1, h2, h3, h4, h5, h6{
     line-height: 1.2;
 }
 
-.main{
+.main-1{
         width: 100%;
         margin-right: auto;
         margin-left: auto;
         max-width: 900px;
-        padding-top: 1px;
+        padding-top: 60px;
         
 }
 .cards{
@@ -147,4 +155,51 @@ h1, h2, h3, h4, h5, h6{
     background-color: #0d6efd;
     color: #ffffff;
     border-color: #0d6efd;
+}
+.footer{
+    border-top: 1px solid #dee2e6;
+}
+    @media (min-width: 768px){
+.footer{ 
+    padding-top: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: -12;
+    margin-left: -12;
+}
+.small-1{
+    color: #6c757d;
+    margin-bottom: 16px;
+    font-size: .875em;
+    display: block
+}   
+h5{
+    font-size: 1.25rem;
+}
+.col-1{
+    flex: 1 0 0%;
+    width: 100%;
+}
+@media (min-width: 768px){
+.col-1{
+    flex: 1 0 0%;
+}
+}
+.col-2{
+    flex: 1 0 0%;
+    width: 100%;
+}
+@media (min-width: 768px){
+.col-2{
+    flex: 1 0 0%;
+}
+}
+.link-secondary {
+    color: #6c757d;
 }
